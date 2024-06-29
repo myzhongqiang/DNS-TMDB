@@ -6,12 +6,16 @@
 
 三、查询自己的PY目录
 SHH命令查询如下
+
 which python
 which python3
 
 四、打开控制面板，任务计划新建任务，用户账户类型：Root，计划每天某个时间点就行，任务设置-运行命令用户自定义脚本写入
+
 /bin/python3 /volume1/docker/DnsParse.py，
+
 其中“/bin/python3”替换自己which python which python3查询得到的目录；
+
 其中“/volume1/docker/DnsParse.py”修改为自己的存放的DnsParse.py文件的路径。
 
 四、ssh命令查询是否修改成功，输入
